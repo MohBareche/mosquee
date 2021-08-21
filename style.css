@@ -134,14 +134,6 @@ li:last-child {
   list-style: none;
 }
 
-body {
-  /* background-color: orangered; */
-}
-
-/* .first-li {
-  font-weight: bold;
-} */
-
 li:first-child {
   font-weight: bold;
 }
@@ -268,7 +260,6 @@ nav p {
   color: red;
   font-size: 20px;
 }
-.center{
-text-align: center;
-  
+.center {
+  text-align: center;
 }
