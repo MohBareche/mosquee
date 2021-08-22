@@ -112,9 +112,10 @@ h4 {
 }
 
 p {
-  font-size: 22px;
+  font-size: 20px;
   line-height: 1.5;
   margin-bottom: 15px;
+  font-weight: 600;
 }
 
 ul,
@@ -254,16 +255,16 @@ h2::before {
 .cards .card {
   justify-content: center;
   text-align: center;
+  height: 200px;
 }
 .card img {
   width: 50px;
   height: 50px;
-  color: #1098ad;
   margin-bottom: 15px;
 }
 
 .card a {
-  color: #1098ad;
+  color: initial;
   text-decoration: initial;
   font-style: initial;
   text-transform: initial;
@@ -286,4 +287,13 @@ h2::before {
   text-align: center;
   padding: 30px;
   color: #1098ad;
+}
+.container-archives,
+.container-archives hr {
+  width: 80%;
+  text-align: center;
+  margin: 0 auto;
+}
+.container-archives iframe {
+  margin: 15px auto;
 }
