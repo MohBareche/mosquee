@@ -172,6 +172,7 @@ a:visited {
 a:hover {
   font-weight: bolder;
   border-bottom: 2px solid #1098ad;
+  color:#1098ad;
 }
 
 /* LVHA */
