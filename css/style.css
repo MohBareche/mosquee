@@ -265,6 +265,7 @@ h1::first-letter {
 
 .titre-2 {
   text-align: center;
+
 }
 .comment {
   text-align: center;
@@ -282,19 +283,24 @@ h1::first-letter {
 }
 
 #titre-horaires {
-  margin-top: 50px;
+  margin-top: 20px;
   text-align: center;
 }
 
-
-.table{
+.table {
   text-align: center;
   margin: 20px auto;
 }
 
-.date{
+.date {
   display: flex;
   justify-content: space-around;
   padding: 0 80px;
-  
+}
+
+.bg-quran img {
+  height: 300px;
+  padding: 5px;
+  margin: auto;
+display: flex;
 }
