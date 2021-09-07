@@ -30,8 +30,7 @@ function loadTimePrayMonthMtl(url, table) {
       }
 
       /* Populate the row */
-      let dates = [];
-
+   
       for (let i in prieres) {
         let dates = Object.values(prieres[i].date);
         dates.shift();
@@ -48,12 +47,12 @@ function loadTimePrayMonthMtl(url, table) {
           rowElement.appendChild(cellText);
           tableBody.appendChild(rowElement);
         }
-        console.log(donnees);
-        if (donnees[0] === today.toString()) {
-          // document.getElementsByClassName("day")
-          // active.setAttribute("id", "active");
-          
-        }
+        
+        // if (donnees[0] !== today.toString()) {
+        //   document.getElementsByTagName("tr").setAttribute('id','active')
+        // } else {
+        //   console.log("hi");
+        // }
       }
     });
 

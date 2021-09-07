@@ -287,8 +287,7 @@ h1::first-letter {
 
 .date {
   display: flex;
-  justify-content: space-around;
-  padding: 0 80px;
+  justify-content: space-evenly;
 }
 
 .bg-quran img {
