@@ -10,7 +10,6 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/table.css" />
 
     <title>Centre Musulman Al-Manara</title>
   </head>
@@ -45,15 +44,20 @@
     <div class="bg-quran">
       <img src="img/quran-bg.jpg" alt="quran background" />
     </div>
-    <h2 id="titre-horaires">Horaires des prières du jour</h2>
+    <h3 class="titre-horaires">Horaires de prière du jour</h3>
     <div class="date">
       <h4 id="date-gregorian"></h4>
       <h4 id="date-hijri"></h4>
     </div>
-    <table class="table">
-      <thead></thead>
-      <tbody></tbody>
-    </table>
-    <script src="table.js"></script>
+    <div class="main">
+      <table class="table">
+        <thead></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+    <div class="time-month">
+      <a href="times.html" target="_blank">Horaires du mois courant</a>
+    </div>
+    <script src="pray-times.js"></script>
   </body>
 </html>
