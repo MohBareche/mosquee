@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Klee+One&family=Lato:wght@300&family=Raleway:ital,wght@0,300;0,400;1,300;1,400&family=Urbanist:wght@300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Klee+One&family=Lato:wght@300&family=Raleway:ital,wght@0,300;0,400;1,300;1,400&family=Urbanist:wght@300&display=swap');
 
 * {
   margin: 0;
@@ -9,7 +9,7 @@
 /* PAGE SECTIONS */
 body {
   color: #444;
-  font-family: Lato, "sans-serif";
+  font-family: Lato, 'sans-serif';
   position: relative;
   line-height: 1.6;
 }
@@ -87,7 +87,7 @@ h3 {
 .navbar h1 {
   font-size: 30px;
   font-weight: normal;
-  font-family: "Dancing Script", cursive;
+  font-family: 'Dancing Script', cursive;
 }
 
 .navbar h1::first-letter {
@@ -300,7 +300,7 @@ h1::first-letter {
 .table {
   box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.35);
   border-collapse: collapse;
-  font-family: "Quicksands", sans-serif;
+  font-family: 'Quicksands', sans-serif;
   /* overflow: hidden; */
   font-weight: bold;
   text-align: center;
@@ -352,7 +352,7 @@ h1::first-letter {
   border: 1px solid #009578;
 }
 
-
-#active{
-  background-color: yellow;
+#active {
+  background-color: #c2f7fc;
+  color: red;
 }
