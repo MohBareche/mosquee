@@ -38,7 +38,7 @@ function afterSubmit(e) {
     courriel: courriel.value,
     etage: etage,
     symptomes: symptomes,
-    comment: comment.value,
+    comment: comment.value || "",
   };
 
   const url =
