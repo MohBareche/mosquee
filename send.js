@@ -48,7 +48,7 @@ function afterSubmit(e) {
     method: "POST",
     mode: "no-cors",
     cache: "no-cache",
-    redirect: "success-page",
+    redirect: "follow",
     body: JSON.stringify(info),
   })
     .then((res) => res.json())
