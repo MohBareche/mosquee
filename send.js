@@ -5,6 +5,8 @@ const numTel = document.getElementById("num_tel");
 const courriel = document.getElementById("email");
 const comment = document.getElementById("comment");
 const submitButton = document.getElementById("submitButton");
+const buttonSpinner = document.getElementById("buttonSpinner");
+const buttonText = document.getElementById("buttonText");
 
 function afterSubmit(e) {
   e.preventDefault();
@@ -44,6 +46,10 @@ function afterSubmit(e) {
   const url =
     "https://script.google.com/macros/s/AKfycbwChGxJASS64-MwoMRfImgGLWtXHPFjN4Ku2QIT4kPEwhyHrv-IW55TVWv6mzros5C3hA/exec";
 
+  buttonText.textContent = "Envoi en cours...";
+  buttonSpinner.classList.remove("d-none");
+  submitButton.disabled = true;
+
   fetch(url, {
     method: "POST",
     mode: "no-cors",
@@ -53,7 +59,11 @@ function afterSubmit(e) {
   })
     .then((res) => res.json())
     .then((res) => {
-      console.log(res);
+      testForm.reset();
+
+      buttonText.textContent = "Envoyer";
+      buttonSpinner.classList.add("d-none");
+      submitButton.disabled = false;
     })
     .catch((err) => {
       console.log(err);

@@ -20,7 +20,7 @@ body {
 }
 .container {
   background-color: #eee;
-  max-width: 1300px;
+  max-width: 1200px;
   width: 100%;
   height: 100px;
   margin: 0 auto;
@@ -333,11 +333,10 @@ h1::first-letter {
   display: flex;
 }
 .time-month a, .form-jumuaa a {
-  border-radius: 5px;
   font-weight: bold;
-  margin: 0 auto;
+  margin: 20px auto;
   padding: 5px 10px;
-  background-color: #f7f7f7;
+  border-radius: 5px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
@@ -351,6 +350,12 @@ h1::first-letter {
   font-style: normal;
   text-decoration: none;
   border: 1px solid #009578;
+}
+
+.form-jumuaa a{
+  background-color: #f0cdcd;
+  border: 1px solid black;
+  color:blue
 }
 
 #active {
