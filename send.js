@@ -68,7 +68,11 @@ function afterSubmit(e) {
     })
     .catch((err) => {
       console.log(err);
-      console.log("Something Went Wrong ", err.error);
+      testForm.reset();
+
+      buttonText.textContent = "Envoyer";
+      buttonSpinner.classList.add("d-none");
+      submitButton.disabled = false;
     });
 }
 
