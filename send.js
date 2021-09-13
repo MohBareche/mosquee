@@ -59,6 +59,7 @@ function afterSubmit(e) {
   })
     .then((res) => res.json())
     .then((res) => {
+      console.log(res);
       testForm.reset();
 
       buttonText.textContent = "Envoyer";
@@ -67,7 +68,7 @@ function afterSubmit(e) {
     })
     .catch((err) => {
       console.log(err);
-      console.log("Something Went Wrong");
+      console.log("Something Went Wrong ", err.error);
     });
 }
 
