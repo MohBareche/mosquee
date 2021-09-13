@@ -10,7 +10,7 @@ function loadTimePrayTodayMtl(url, table) {
       const prieres = await data.results.datetime[0].times;
       const dateGregorian = await data.results.datetime[0].date.gregorian;
       const dateHijri = await data.results.datetime[0].date.hijri;
-      console.log(dateGregorian);
+
       document.getElementById("date-gregorian").innerHTML = dateGregorian;
       document.getElementById(
         "date-hijri"
